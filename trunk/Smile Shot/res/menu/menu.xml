@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Shutter" android:id="@+id/shutter"></item>
+<item android:title="Setting" android:id="@+id/setting"></item>
+<item android:title="Quick View" android:id="@+id/view"></item>
+<item android:id="@+id/timer" android:title="Timer"></item>
+<item android:id="@+id/Switch" android:title="Switch"></item>
+</menu>
