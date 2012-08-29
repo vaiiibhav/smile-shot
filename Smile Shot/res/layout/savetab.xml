@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/SaveTab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:text="Save Picture"
+        android:textSize="18dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SaveTab"
+        android:layout_marginTop="20dip"
+        android:text="Name:"
+        android:textSize="18dip" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:singleLine="true" >
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/Location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/CheckBox03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Name"
+        android:text="Share it online at the same time" />
+
+    <Button
+        android:id="@+id/Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CheckBox03"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/CheckBox03"
+        android:layout_below="@+id/CheckBox03"
+        android:text="Cancel" />
+
+</RelativeLayout>
